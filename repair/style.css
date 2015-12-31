@@ -1,0 +1,28 @@
+html,body {
+background-color : white; 
+}
+
+p,ul,li,td {
+font-size : 100%; 
+font-family :  Verdana, Arial, Helvetica, Geneva, sans-serif; 
+color : black; 
+background-color : white; 
+}
+
+h1 {
+font-size : 200%; 
+font-family :  Verdana, Arial, Helvetica, Geneva, sans-serif;
+color : navy; 
+text-align: center;
+}
+
+h2 {
+font-size : 150%; 
+font-family :  Verdana, Arial, Helvetica, Geneva, sans-serif; 
+color : red; 
+padding-left:15px;
+}
+
+a:link {color: green; text-decoration:underline;}
+a:visited {color: gray; text-decoration:underline;}
+a:hover {color:red; text-decoration:none;}
