@@ -7,8 +7,9 @@ This module was developed for use in an Auto Repair Service business. It may, of
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mambax7/repair/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mambax7/repair/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/mambax7/repair/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mambax7/repair/build-status/master)
 
-See tutorial [here](https://mambax7.gitbooks.io/xoops-repair-shop-module-tutorial/content/)
+[![Tutorial Available](http://xoops.org/images/tutorial-available-blue.svg)](https://mambax7.gitbooks.io/xoops-repair-shop-module-tutorial/content/) Tutorial: see [here](https://mambax7.gitbooks.io/xoops-repair-shop-module-tutorial/content/). 
+To contribute to the Tutorial, [fork it on GitHub](https://github.com/XoopsDocs/repair-shop-tutorial)
 
 Please visit us on http://xoops.org
 
-**The upcoming "next generation" version of XOOPS CMS is being crafted on GitHub at: https://github.com/XOOPS**
+**The "next generation" of XOOPS CMS is being crafted on GitHub at: https://github.com/XOOPS**
