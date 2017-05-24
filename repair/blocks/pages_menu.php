@@ -27,7 +27,7 @@
 // ------------------------------------------------------------------------- //
 function b_pages_list() {
 	global $xoopsDB, $xoopsModule, $myts;
-	$myts =& MyTextSanitizer::getInstance();
+	$myts = MyTextSanitizer::getInstance();
 	$block['content'] =" ";
         $result2 = $xoopsDB->query("SELECT CID FROM " . $xoopsDB->prefix("pages") . "");
         $numrows = $xoopsDB->getRowsNum($result2);

@@ -20,7 +20,7 @@ if(!isset($_POST['id_supp'])){
 	$id_supp = $_POST['id_supp'];
 }
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {

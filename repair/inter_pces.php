@@ -59,7 +59,7 @@ if(!isset($tarif_client1)){$tarif_client1 = 0;};
 
 Xoops_Header();
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {
@@ -194,7 +194,7 @@ if ($id_forfait !=0){
 //-- CAS GENERAL - FORMULAIRE DE CREATION DU DETAIL
 //  ------------------------------------------------------------------------ //
   global $xoopsDB, $id, $xoopsModule, $xoopsModuleConfig;
-  $myts =& MyTextSanitizer::getInstance();
+  $myts = MyTextSanitizer::getInstance();
 
   $montant_pieces = 0;
 
