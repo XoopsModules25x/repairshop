@@ -26,7 +26,7 @@
 include_once("admin_header.php");
 include_once XOOPS_ROOT_PATH."/class/xoopsformloader.php";
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($_POST['op'])){
 	$op = isset ($_GET['op']) ? $_GET['op'] : '0';

@@ -8,7 +8,7 @@ if(!isset($_POST['id_serv'])){
 }else {
 	$id_serv = $_POST['id_serv'];
 }
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 global $xoopsDB, $myts, $id_service;
 //Xoops_Cp_Header();
 $id_service = $id_serv;

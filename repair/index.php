@@ -31,7 +31,7 @@ include_once XOOPS_ROOT_PATH."/class/xoopsformloader.php";
 
 Xoops_Header();
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($_POST['solde'])){
 	$etat = isset ($_GET['solde']) ? $_GET['solde'] : '0';

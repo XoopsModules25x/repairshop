@@ -13,7 +13,7 @@ if(!isset($_POST['op'])){
 else {
 	$op = $_POST['op'];
 }
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 if(!isset($op)){
 	$op=" ";
 }

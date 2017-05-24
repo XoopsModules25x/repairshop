@@ -12,7 +12,7 @@ else $groups = XOOPS_GROUP_ANONYMOUS;
 $module_id = $xoopsModule->getVar("mid");
 $gperm_handler = & xoops_gethandler('groupperm');
 */
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 foreach ($_POST as $k => $v) {
 	if (is_string($v))
 	     $$k = $myts->stripSlashesGPC($v);

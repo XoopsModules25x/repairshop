@@ -56,7 +56,7 @@ if(!isset($quantite1)){$quantite1 = 1;};
 if(!isset($tarif_client)){$tarif_client = 0;};
 if(!isset($tarif_client1)){$tarif_client1 = 0;};
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {
@@ -227,7 +227,7 @@ Xoops_Cp_Header();
 garage_tabsAdminMenu(__FILE__);
 
   global $xoopsDB, $id, $xoopsModule, $xoopsModuleConfig;
-  $myts =& MyTextSanitizer::getInstance();
+  $myts = MyTextSanitizer::getInstance();
 
   $montant_pieces = 0;
 

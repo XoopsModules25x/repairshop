@@ -54,7 +54,7 @@ Xoops_Header();
 	exit();	}
 
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {
@@ -144,7 +144,7 @@ if ($new_proprietaire != ""){
   global $xoopsDB, $id, $xoopsModule, $xoopsModuleConfig, $xoopsUser;
 
 
-  $myts =& MyTextSanitizer::getInstance();
+  $myts = MyTextSanitizer::getInstance();
 
   $req1 = $xoopsDB->query("SELECT id, immat, id_marque, gamme, modele_version, id_proprietaire FROM ".$xoopsDB->prefix("garage_vehicule")." ORDER BY immat ASC");
     $list_id_vehicule = array();

@@ -39,7 +39,7 @@ if(!isset($_POST['id_empl'])){
 	$id_empl = $_POST['id_empl'];
 }
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 // Executing operation from code
 if(!isset($op)){$op=" ";}

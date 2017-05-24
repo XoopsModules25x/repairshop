@@ -15,7 +15,7 @@ if(!isset($_POST['id_doc'])){
 	$id_doc = $_POST['id_doc'];
 }
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {
@@ -26,7 +26,7 @@ switch ($op) {
 	case "creatdoc":
 	global $xoopsDB, $myts;
 	
-	$myts =& MyTextSanitizer::getInstance();
+	$myts = MyTextSanitizer::getInstance();
 	
 //	$id_doc    = $myts->makeTboxData4save($_POST["id_doc"]);      
 //	$doc_fr    = $myts->makeTboxData4save($_POST["doc_fr"]);      
@@ -61,7 +61,7 @@ switch ($op) {
   case "modifdoc":
   global $xoopsDB ,$myts;
 
-$myts =& MyTextSanitizer::getInstance(); 
+$myts = MyTextSanitizer::getInstance(); 
  
   $sql=sprintf("SELECT * FROM ".$xoopsDB->prefix("garage_doc")." WHERE id_doc='%s'",$id_doc);
 	$res = $xoopsDB->query($sql)  or die ('erreur requete :'.$sql.'<br />');
@@ -100,7 +100,7 @@ break;
   case "update":
 	global $xoopsDB, $myts;
 	
-	$myts =& MyTextSanitizer::getInstance();
+	$myts = MyTextSanitizer::getInstance();
 	
 //	$old_id_doc		= $myts->makeTboxData4save($_POST["old_id_doc"]);
 	$id_doc				= $_POST["id_doc"];

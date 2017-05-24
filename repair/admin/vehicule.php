@@ -18,7 +18,7 @@ if(!isset($_POST['id'])){
 	$id = $_POST['id'];
 }
 
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 if(!isset($op)){$op=" ";}
 switch ($op) {
